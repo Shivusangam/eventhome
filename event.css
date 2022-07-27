@@ -1,0 +1,132 @@
+body{
+    width: 100%;
+    font-family: 'Taviraj', serif;
+    float: left;
+    margin: 0%;
+}
+section.main {
+    width: 96%;
+    margin: 0 auto;
+}
+.mainhead,senction.main, .half1{
+    width: 100%;
+    float: left;
+}
+h1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.half1{
+width: 100%;
+float: left;
+margin: 0%;    
+}
+.eventcards {
+    width: 90%;
+    float: left;
+    box-shadow: 0 0 2px 2px #8080805c;
+    margin: 3% 3%;
+    padding: 3%;
+}
+.mainbox{
+width: 25%;
+float: left;
+
+}
+
+.img1 {
+    width: 45%;
+    float: left;
+}
+img{
+    width: 100%;
+    float:left;
+    height: 88px;
+}
+
+.content1 {
+    width: 55%;
+    float: left;
+}
+.content1 p {
+    margin: 4px;
+    font-size: 14px;
+}
+.content1 button {
+    border: 0;
+    background: #0000ffab;
+    line-height: 2;
+    padding: 0 1em;
+    color: #fff;
+    margin-left: 5px;
+    font-weight: 700;
+}
+button.sold {
+    background: red !important;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width:320px) and (max-width:450px) {
+    .mainbox {
+        width: 100%;
+        float: left;
+    }
+    .content1 p {
+        margin: 4px;
+        font-size: 14px;
+        margin-left: 50px;
+    }
+    .content1 button {
+        border: 0;
+        background: #0000ffab;
+        line-height: 2;
+        padding: 0 1em;
+        color: #fff;
+        margin-left: 50px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width:760px) and (max-width:980px){
+    .mainbox {
+        width: 50%;
+        float: left;
+    }
+    .content1 p {
+        margin: 4px;
+        font-size: 14px;
+        margin-left: 50px;
+    }
+    .content1 button {
+        border: 0;
+        background: #0000ffab;
+        line-height: 2;
+        padding: 0 1em;
+        color: #fff;
+        margin-left: 50px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:760px){
+    .mainbox {
+        width: 50%;
+        float: left;
+    }
+    .content1 p {
+        margin: 4px;
+        font-size: 14px;
+        margin-left: 50px;
+    }
+    .content1 button {
+        border: 0;
+        background: #0000ffab;
+        line-height: 2;
+        padding: 0 1em;
+        color: #fff;
+        margin-left: 50px;
+        font-weight: 700;
+    }
+  
+}
